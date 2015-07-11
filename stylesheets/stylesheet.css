@@ -18,7 +18,11 @@
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   -moz-justify-content: center;
-  justify-content: center; }
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 .content .screenshot {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -43,9 +47,11 @@
   -webkit-justify-content: flex-end;
   -moz-justify-content: flex-end;
   justify-content: flex-end;
-  padding-right: 10px; }
+  padding: 10px;
+  max-height: 60vh; }
 .content .description {
-  padding-left: 20px;
+  max-width: 100vw;
+  padding: 20px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-box-flex: 0;
@@ -80,7 +86,8 @@
   -moz-box-flex: 0;
   -moz-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  padding-bottom: 20px; }
 .content .description .download {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -109,4 +116,8 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   -moz-align-items: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
